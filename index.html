@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="travel company">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <title>Follow The White Rabbit</title>
+    <link rel="stylesheet" href="https://use.typekit.net/hfg7cfj.css">
+    <link rel="stylesheet" href="styles/style.css">
+    
+        
+</head>
+
+<body>
+    <header>            
+     <section class="container">        
+            <div class="header">
+                <div class="burgermenu" onclick="openNav()">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <div class="logo1"> 
+                    <a href="index2.html"> <img class="logo" src="img/logo.svg" alt="white rabbit"></a>
+                </div>
+
+                <div class=" language dropdown">
+                    <button class="dropbtn" onclick="myFunction()">EN</button>                                            
+                    <div class="dropdown-content" id="myDropdown">
+                      <a href="#">GE</a>
+                      <a href="#">POL</a>
+                      <a href="#">RU</a>
+                    </div>
+                </div>             
+            </div> 
+     </section>
+
+  </header>
+
+  <div id="mySidenav" class="sidenav">
+      <div class="grey-bg">
+          <div class="top-bar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <h2>TOURS</h2>
+          </div> 
+      </div>
+
+  <section class="total-wrapper">
+
+          <div class="wrapper-z">        
+            <a class="first" href="#">Cultural  Tours</a>
+            <a href="#">Extreme  Tours</a>
+            <a href="#">Tracking Tours</a>
+            <a href="#">Wine Tours</a>
+            <a href="#">Special interest Tours </a>
+            <a href="#">Tour Planner</a>
+          </div>
+
+          <div class="v-line"></div>
+
+          <div class="filter-box">
+              <h4>Choose Your Option</h4>   
+
+                  <div class="labels">
+                      <ul class="label first"> Days
+                      </ul>
+                      <ul class="label"> Location
+                      </ul>
+                      <ul class="label"> Person
+                      </ul>
+                      <ul class="label"> Price
+                      </ul>
+                      <ul class="label"> Accomodation
+                      </ul>
+                  </div>
+              
+                  <div class="filters">
+                      <form action="#" class="form">
+                          <div class="form-group first">                               
+                              <input type="text" class="input " >
+                          </div>
+                          <div class="form-group">                               
+                              <input type="text" class="input" >
+                          </div>
+                          <div class="form-group">                               
+                              <input type="text" class="input">
+                          </div>
+                          <div class="form-group">                              
+                              <input type="text" class="input" >
+                          </div>
+                          <div class="form-group">                              
+                              <input type="text" class="input" >
+                          </div>
+                          
+                      </form>
+                  </div>      
+                  <div class="button-bg">
+                      <button class="filter-button"> FILTER  </button>                    	
+                      </div>
+                                            
+          </div>
+
+          
+
+  </section>
+
+
+  <footer>
+      <section class="footer">
+        <div class="line"></div>
+        
+          <div class="bg">
+              <div class="wrapper">
+                 <div class="tel">  +995 557 58 49 09  </div>
+                 <div class="mail">  <a href="mailto:info@wrt.ge">info@wrt.ge</a> </div>
+                 <ul class="social-ul">
+                    <li class="social-li">
+                     <a class="g+" href="https://plus.google.com">
+                      <i class="fab fa-google-plus-g social"></i>
+                     </a>
+                    </li>
+                    <li class="social-li">
+                      <a class="fb" href="https://www.facebook.com/WhiteRabbitGeoTravel/" target="_blank">
+                       <i class="fab fa-facebook-f social"></i>
+                      </a>
+                    </li>
+                    <li class="social-li">
+                      <a class="yt" href="https://www.youtube.com">
+                       <i class="fab fa-youtube social"></i>
+                      </a>
+                    </li>
+                 </ul>
+              </div>
+          </div>
+      </section>
+    </footer>
+
+
+
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.6.1/js/all.js" integrity="sha384-R5JkiUweZpJjELPWqttAYmYM1P3SNEJRM6ecTQF05pFFtxmCO+Y1CiUhvuDzgSVZ" crossorigin="anonymous"></script>
+    <script>
+          function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+          }
+        
+          window.onclick = function(e) {
+          if (!e.target.matches('.dropbtn')) {
+           var myDropdown = document.getElementById("myDropdown");
+            if (myDropdown.classList.contains('show')) {
+              myDropdown.classList.remove('show');
+            }
+          }
+        }
+    </script>
+
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>    
+
+</body>
+
+
+</html>
