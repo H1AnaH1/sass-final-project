@@ -4,13 +4,14 @@ body, html{
 
 }
 
-body{
-    background-image: url(../img/bgimage1.jpg);
-    background-color: #f1f1f1;
-	  background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    	
+
+.background-img{
+  background-image: url(../img/bgimage1.jpg);
+  background-color: #f1f1f1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 100%;
 }
 .white-bg{
   background-color: rgba(191, 191, 191, 0.5);

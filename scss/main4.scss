@@ -3,16 +3,17 @@ body, html{
 
 }
 
-body{
-    background-image: url(../img/bgimage1.jpg);
-    background-color: #f1f1f1;
-	  background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    	
+.background-img2{
+  background-image: url(../img/bgimage2.jpg);
+  background-color: #f1f1f1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 100%;
+
 }
-.white-bg{
-  background-color: rgba(191, 191, 191, 0.5);
+.white-bg2{
+  // background-color: rgba(191, 191, 191, 0.5);
   width: 100%;
   height: 100%;
   position: relative;
@@ -410,13 +411,12 @@ transition-duration: 0.3s;
 .column{  
   width: 100%;
   height: 100%;
-  max-height:620px;
+  max-height:710px;
   overflow: auto;
     
 }
 .card{
   background-color: $color4;
-  padding: 20px;
   margin-bottom: 20px;
   display: inline-block;
   position: relative;
@@ -446,12 +446,12 @@ transition-duration: 0.3s;
   display: inline-block;
   text-indent: 30px;
   color: $color8;
+  padding: 8px;
 
 }
 .blog-img1{
   width: 100%;
   height: 200px;
-  margin: 12px 0;
   background-image: url(../img/sighnaghi-cover.jpg);
 	background-repeat: no-repeat;
   background-size: cover;
@@ -462,7 +462,6 @@ transition-duration: 0.3s;
 .blog-img2{
   width: 100%;
   height: 200px;
-  margin: 12px 0;
   background-image: url(../img/kutaisi-cover.JPG);
 	background-repeat: no-repeat;
   background-size: cover;
@@ -473,7 +472,6 @@ transition-duration: 0.3s;
 .blog-img3{
   width: 100%;
   height: 200px;
-  margin: 12px 0;
   background-image: url(../img/telavi.jpg);
 	background-repeat: no-repeat;
   background-size: cover;

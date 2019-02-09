@@ -3,14 +3,18 @@ body, html{
 
 }
 
-body{
-    background-image: url(../img/bgimage1.jpg);
+
+ 
+	
+.background-img{
+  background-image: url(../img/bgimage1.jpg);
 	background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-	
-	
+  background-size: cover;
+  margin: 0;
+  height: 100%;
+
 }
+
 .header{
 	width: 1280px;
 	@extend %display-flex;
@@ -213,7 +217,7 @@ body{
     height: 54px;
     width: 100%;     
     
-    }
+  }
     
 
 .total-wrapper{
