@@ -21,7 +21,7 @@
                     
                 </a>
                 
-                <h2 class="title-1">mestia</h2>
+                <h2 class="title-1"> order the tour in mestia</h2>
 
                 <div class=" language dropdown">
                     <button class="dropbtn" onclick="myFunction()">EN</button>                                            
@@ -39,81 +39,43 @@
   
 
 <section class="main-content">
-  
-    <section class="tour-description">
-            <div class="tour-img"></div>
-            <div class="tabs">
-                <div class="tour-tabs">
-                    <button class="tablinks" onclick="opentour(event, 'Tour description')" id="defaultOpen">Tour description</button>
-                    <button class="tablinks" onclick="opentour(event, 'Tour includes')">Tour includes</button>
-                    <button class="tablinks" onclick="opentour(event, 'Map')">Map</button>
-                </div>
-                <div class="tab-line"></div>
-                <div id="Tour description" class="tour-tabcontent">
-                
-                    <h3>Day 1: Tbilisi – Zugdidi</h3>
-                    <p> Our driver will pick you up from your hotel at 20:00 and take you to the Central train station
-                        in Tbilisi. The overnight train to Zugdidi leaves at 21:10 and arrives in Zugdidi at 06:25 the next
-                        morning.</p>
-                    <h3>Day 2: Zugdidi – Mestia</h3> 
-                    <p> Our driver will meet you at Zugdidi train station to drive you up to Mestia (about 130 km), one
-                        of the oldest towns in Svaneti region of Georgia. This region is a birthplace of the svans, a unique
-                        ethnic group, who distinguish with their amazing and old culture and traditions. Svaneti is also
-                        famous with its original and authentic architecture and is dubbed as a “land of thousand towers”.
-                        Those towers used to play an important economic and defensive role in the history of Svaneti.
-                        There are still dozens of the towers – Middle Ages stone houses with fire watchtowers; and
-                        churches (10-14th cc). In the evening visit Mestia Ethnographic museum, original svan house
-                        “machubi”, and “koshki” tower. Dinner and overnight at the hotel or local guesthouse.</p>
-                    <h3>Day 3: Mestia – Ushguli – Mestia</h3> 
-                    <p>After the hotel breakfast drive to Ushguli village, the highest standing settlement in Europe (2200 m).
-                        Ushguli architectural complex is a valuable architectural and historical monument listed in the
-                        World heritage of UNESCO for its exclusiveness. There are about 70 families living in Ushguli
-                        (around 200 people). Spend time in Ushguli strolling old narrow streets. Visit Lamaria Church complex
-                        with impressive 12th century wall frescos. Locals believe that Queen Tamar was buried under this
-                        church. Enjoy picturesque view of the Mount Shkhara. Return to Mestia to enjoy delicious dinner
-                        made of Svan traditional dishes.</p>
-                    <h3> Day 4: Mestia – Zugdidi – Tbilisi</h3>
-                    <p>After breakfast check-out from hotel. Free time to walk around Mestia until afternoon drive back to
-                        Zugdidi. Upon arrival visit the Dadiani Palace (Western Georgia's royal family).
-                        Drive to Zugdidi train station to take an overnight train back to Tbilisi.
-                        Departure at 22:15, arrival on the next morning at 06:30. Transfer to your hotel.</p>
-                </div>
-                
-                <div id="Tour includes" class="tour-tabcontent">
-               
-                <p>Paris is the capital of France.</p> 
-                </div>
-                
-                <div id="Map" class="tour-tabcontent">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11665.15060858641!2d42.6799750420185!3d43.03537890051423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405bd976dbdf6305%3A0xd4e140f4c76dc486!2z4YOb4YOU4YOh4YOi4YOY4YOQ!5e0!3m2!1ska!2sge!4v1549728466480" 
-                     height="390" frameborder="0" style="border:0" allowfullscreen></iframe>
-                
-                </div>
-
+  <div class="order-page">
+    <section class="fillin-order">
+            <div class="fillin first">                     
+                <input type="text" class="order-input" placeholder="name & surname">
             </div>
-              
+            <div class="fillin">                     
+                <input type="text" class="order-input" placeholder="passport n">
+            </div>
+            <div class="fillin">                     
+                <input type="tel" class="order-input" placeholder="telephone n">
+            </div>
+            <div class="fillin">                     
+                <input type="email" class="order-input" placeholder="email">
+            </div>
+            <div class="fillin">         
+                <textarea class="order-input message" name="message" rows="10" cols="30">message</textarea>
+            </div>
     </section>
 
-    <section class="order-tour">
+    <section class="order-tour2">
             
-            <h1>Order the tour</h1>   
-
             <div class="filters3">
-                    <div class="class">
-                        <div class="adult">
+                    <div class="order-class">
+                        <div class="adult1">
                             <label> Adults </label>
-                            <input type="number" name="quantity" min="1" max="100" class="input2">
+                            <input type="number" name="quantity" min="1" max="100" >
                         </div>
-                        <div class="children">
+                        <div class="children1">
                             <label> Children </label>
-                            <input type="number" name="quantity" min="1" max="100" class="input2">
+                            <input type="number" name="quantity" min="1" max="100" >
                         </div>
                     </div>
 
-                        <div class="class2">
+                        <div class="order-class2">
                             <label> Tour package type</label>
                             <form action="/action_page.php">
-                                <select name="packages" class="input2">
+                                <select name="packages" class="options">
                                   <option value="regular" selected>Regular</option>
                                   <option value="vip">VIP</option>
                                   <option value="econom" >Econom</option>
@@ -121,10 +83,10 @@
                             </form>
                         </div>
 
-                         <div class="class3">
+                         <div class="order-class3">
                             <label> Additional offers</label>
                             <form action="/action_page.php">
-                                <select name="offers" class="input2">
+                                <select name="offers" class="options">
                                   <option value="rent-tent" >Rent a tent</option>
                                   <option value="wine">Wine</option>
                                   <option value="souvenirs" selected >Souvenirs</option>
@@ -132,31 +94,31 @@
                             </form>
                         </div>  
                     
-                        <div class="class4">
+                        <div class="order-class4">
                             <div class="calendar">
                                 <h5>Start date</h5>
-                                <form class="calendar-content" action="/action_page.php">
-                                <input type="date" class="input2">
+                                <form action="/action_page.php">
+                                <input type="date" class="options">
                                 </form>
                             </div>
 
                             <div class="calendar">
                                 <h5>End date</h5>
                                 <form action="/action_page.php">
-                                <input type="date" class="input2">
+                                <input type="date" class="options">
                                 </form>
                             </div>
                         </div>
 
-                        <div class="order-button">
-                            <a href="index7.html"><button class="order"> order  </button> </a>
-                                               	
+                        <div class="order-button2">
+                            <button class="order2"> order  </button>                    	
                         </div>
             </div>      
                                                         
         
     </section>
-
+  </div>
+</section>
 
 
 <footer>
@@ -222,11 +184,11 @@
           }
           document.getElementById(tourName).style.display = "block";
           evt.currentTarget.className += " active";
+          document.getElementById("defaultOpen").click();
 
         }
     
-        // Get the element with id="defaultOpen" and click on it
-        document.getElementById("defaultOpen").click();
+        
 
         
         </script>
