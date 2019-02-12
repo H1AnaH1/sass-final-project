@@ -83,11 +83,7 @@ border: 1px solid $color4;
 border-top: none;
 }
 
-.tabs{
-    
-    position: sticky;
-    
-}
+
 .tab-line{
     
 	width: 100%;
@@ -98,6 +94,10 @@ border-top: none;
 }
 .tour-tabs{
     @extend %display-flex;
+    position: sticky;
+    top: 0;
+    background-color: $color8;
+
 }
 .tour-description{
     float: left;
@@ -130,7 +130,7 @@ border-top: none;
     font-size: 24px;
     font-family: $font01;
     text-transform: uppercase;
-    color: $color7;
+    color: $color4;
 }
     
 .tour-tabs button.active {

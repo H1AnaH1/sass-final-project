@@ -1466,7 +1466,7 @@ body, html {
   flex-direction: column;
   padding-bottom: 68px; }
 
-.first {
+.first2 {
   padding-top: 130px; }
 
 .input2 {
@@ -1643,15 +1643,17 @@ body, html {
   border: 1px solid #bfbfbf;
   border-top: none; }
 
-.tabs {
-  position: sticky; }
-
 .tab-line {
   width: 100%;
   height: 2px;
   display: inline-block;
   background: #d96f25;
   vertical-align: top; }
+
+.tour-tabs {
+  position: sticky;
+  top: 0;
+  background-color: #444444; }
 
 .tour-description {
   float: left;
@@ -1680,7 +1682,7 @@ body, html {
   font-size: 24px;
   font-family: CarlMarx;
   text-transform: uppercase;
-  color: #2b5a46; }
+  color: #bfbfbf; }
 
 .tour-tabs button.active {
   color: #d96f25; }
@@ -2084,3 +2086,39 @@ body, html {
     font-size: 10px; }
   .line {
     background-color: #2b5a46; } }
+
+@media (max-width: 1366px) {
+  .column {
+    max-height: 416px; }
+  .text-about {
+    padding: 100px; }
+  .icon-wrapper {
+    margin-bottom: 15px; }
+  .tabcontent {
+    max-height: 360px; }
+  .tours {
+    padding: 0 0 10px 45px; }
+  .side-nav {
+    height: 469px; }
+  .side-nav h2 {
+    padding-bottom: 30px; }
+  .side-nav li {
+    padding-bottom: 30px; }
+  .form-group2 {
+    padding-bottom: 30px; }
+    .form-group2 .first {
+      padding-top: 30px; }
+  .order-tour {
+    max-height: 469px; }
+  .class {
+    height: 80px; }
+  .class3 {
+    padding-bottom: 10px; }
+  .class4 {
+    margin-bottom: 34px; }
+  .fillin {
+    padding-top: 12px; }
+  .order-class2 {
+    margin-bottom: 0; }
+  .order-class4 {
+    margin-bottom: 30px; } }
