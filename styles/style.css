@@ -64,9 +64,10 @@ body, html {
 .background-img {
   background-image: url(../img/bgimage1.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center top;
   margin: 0;
-  height: 100%; }
+  height: 100%;
+  background-size: cover; }
 
 .header {
   width: 1280px; }
@@ -76,7 +77,8 @@ body, html {
 
 .burgermenu {
   display: inline-block;
-  cursor: pointer; }
+  cursor: pointer;
+  padding-left: 10px; }
 
 .bar1, .bar2, .bar3 {
   width: 35px;
@@ -107,12 +109,12 @@ body, html {
 
 .dropdown .dropbtn {
   cursor: pointer;
-  font-size: 25px;
+  font-size: 24px;
   border: none;
   outline: none;
   color: #116533;
   font-family: CarlMarx;
-  padding: 14px 16px;
+  padding: 10px 10px 0 16px;
   background-color: inherit;
   margin: 0; }
 
@@ -126,9 +128,9 @@ body, html {
 .dropdown-content a {
   float: none;
   color: #116533;
-  font-size: 25px;
+  font-size: 22px;
   font-family: CarlMarx;
-  padding: 12px 16px;
+  padding: 10px 10px 0 16px;
   text-decoration: none;
   display: block;
   text-align: left; }
@@ -339,11 +341,11 @@ body, html {
 
 .background-img {
   background-image: url(../img/bgimage1.jpg);
-  background-color: #f1f1f1;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center top;
   margin: 0;
-  height: 100%; }
+  height: 100%;
+  background-size: cover; }
 
 .white-bg {
   background-color: rgba(191, 191, 191, 0.5);
@@ -406,12 +408,12 @@ body, html {
 
 .dropdown .dropbtn {
   cursor: pointer;
-  font-size: 25px;
+  font-size: 24px;
   border: none;
   outline: none;
   color: #116533;
   font-family: CarlMarx;
-  padding: 14px 16px;
+  padding: 10px 10px 0 16px;
   background-color: inherit;
   margin: 0; }
 
@@ -425,9 +427,9 @@ body, html {
 .dropdown-content a {
   float: none;
   color: #116533;
-  font-size: 25px;
+  font-size: 22px;
   font-family: CarlMarx;
-  padding: 12px 16px;
+  padding: 10px 10px 0 16px;
   text-decoration: none;
   display: block;
   text-align: left; }
@@ -641,11 +643,11 @@ body, html {
 
 .background-img {
   background-image: url(../img/bgimage1.jpg);
-  background-color: #f1f1f1;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center top;
   margin: 0;
-  height: 100%; }
+  height: 100%;
+  background-size: cover; }
 
 .white-bg {
   background-color: rgba(191, 191, 191, 0.5);
@@ -708,12 +710,12 @@ body, html {
 
 .dropdown .dropbtn {
   cursor: pointer;
-  font-size: 25px;
+  font-size: 24px;
   border: none;
   outline: none;
   color: #116533;
   font-family: CarlMarx;
-  padding: 14px 16px;
+  padding: 10px 10px 0 16px;
   background-color: inherit;
   margin: 0; }
 
@@ -727,9 +729,9 @@ body, html {
 .dropdown-content a {
   float: none;
   color: #116533;
-  font-size: 25px;
+  font-size: 22px;
   font-family: CarlMarx;
-  padding: 12px 16px;
+  padding: 10px 10px 0 16px;
   text-decoration: none;
   display: block;
   text-align: left; }
@@ -998,11 +1000,11 @@ body, html {
 
 .background-img2 {
   background-image: url(../img/bgimage2.jpg);
-  background-color: #f1f1f1;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center top;
   margin: 0;
-  height: 100%; }
+  height: 100%;
+  background-size: cover; }
 
 .white-bg2 {
   width: 100%;
@@ -1064,12 +1066,12 @@ body, html {
 
 .dropdown .dropbtn {
   cursor: pointer;
-  font-size: 25px;
+  font-size: 24px;
   border: none;
   outline: none;
   color: #116533;
   font-family: CarlMarx;
-  padding: 14px 16px;
+  padding: 10px 10px 0 16px;
   background-color: inherit;
   margin: 0; }
 
@@ -1083,9 +1085,9 @@ body, html {
 .dropdown-content a {
   float: none;
   color: #116533;
-  font-size: 25px;
+  font-size: 22px;
   font-family: CarlMarx;
-  padding: 12px 16px;
+  padding: 10px 10px 0 16px;
   text-decoration: none;
   display: block;
   text-align: left; }
@@ -1387,12 +1389,12 @@ body, html {
 
 .dropdown .dropbtn {
   cursor: pointer;
-  font-size: 25px;
+  font-size: 24px;
   border: none;
   outline: none;
   color: #116533;
   font-family: CarlMarx;
-  padding: 14px 16px;
+  padding: 10px 10px 0 16px;
   background-color: inherit;
   margin: 0; }
 
@@ -1406,9 +1408,9 @@ body, html {
 .dropdown-content a {
   float: none;
   color: #116533;
-  font-size: 25px;
+  font-size: 22px;
   font-family: CarlMarx;
-  padding: 12px 16px;
+  padding: 10px 10px 0 16px;
   text-decoration: none;
   display: block;
   text-align: left; }
@@ -1604,12 +1606,12 @@ body, html {
 
 .dropdown .dropbtn {
   cursor: pointer;
-  font-size: 25px;
+  font-size: 24px;
   border: none;
   outline: none;
   color: #116533;
   font-family: CarlMarx;
-  padding: 14px 16px;
+  padding: 10px 10px 0 16px;
   background-color: inherit;
   margin: 0; }
 
@@ -1623,9 +1625,9 @@ body, html {
 .dropdown-content a {
   float: none;
   color: #116533;
-  font-size: 25px;
+  font-size: 22px;
   font-family: CarlMarx;
-  padding: 12px 16px;
+  padding: 10px 10px 0 16px;
   text-decoration: none;
   display: block;
   text-align: left; }
@@ -1866,12 +1868,12 @@ body, html {
 
 .dropdown .dropbtn {
   cursor: pointer;
-  font-size: 25px;
+  font-size: 24px;
   border: none;
   outline: none;
   color: #116533;
   font-family: CarlMarx;
-  padding: 14px 16px;
+  padding: 10px 10px 0 16px;
   background-color: inherit;
   margin: 0; }
 
@@ -1885,9 +1887,9 @@ body, html {
 .dropdown-content a {
   float: none;
   color: #116533;
-  font-size: 25px;
+  font-size: 22px;
   font-family: CarlMarx;
-  padding: 12px 16px;
+  padding: 10px 10px 0 16px;
   text-decoration: none;
   display: block;
   text-align: left; }
@@ -2076,3 +2078,9 @@ body, html {
   .wrapper .social-li {
     margin: 0 12px;
     vertical-align: top; }
+
+@media screen and (max-width: 360px) {
+  .tel .mail .social {
+    font-size: 10px; }
+  .line {
+    background-color: #2b5a46; } }

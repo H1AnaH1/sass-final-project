@@ -9,9 +9,10 @@ body, html{
 .background-img{
   background-image: url(../img/bgimage1.jpg);
 	background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center top;
   margin: 0;
   height: 100%;
+  background-size: cover;
 
 }
 
@@ -27,7 +28,8 @@ body, html{
 }
 .burgermenu {
 	display: inline-block;
-	cursor: pointer;
+  cursor: pointer;
+  padding-left: 10px;
   }
   
   .bar1, .bar2, .bar3 {
@@ -63,12 +65,12 @@ body, html{
 }
 .dropdown .dropbtn {
   cursor: pointer;
-  font-size: 25px;  
+  font-size: 24px;  
   border: none;
   outline: none;
   color:$color2;
   font-family: $font01;
-  padding: 14px 16px;
+  padding: 10px 10px 0 16px;
   background-color: inherit;
   margin: 0;
   
@@ -84,9 +86,9 @@ body, html{
 .dropdown-content a {
   float: none;
   color:$color2;
-  font-size: 25px;
+  font-size: 22px;
   font-family: $font01;
-  padding: 12px 16px;
+  padding: 10px 10px 0 16px;
   text-decoration: none;
   display: block;
   text-align: left;
