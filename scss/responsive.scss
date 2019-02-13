@@ -1,34 +1,61 @@
-
-// Footer
-@media screen and (max-width: 360px){
-    .tel .mail .social {
-        
-        font-size: 10px;
-    }
-    .line{
-        background-color: $color7;
-      }
-
-}
-
 @media (max-width: 1366px){
-    .column{
-        max-height: 416px;
+    .logo{
+        width: 100px;
+        height: 100px;
+            
     }
+    .bar1, .bar2, .bar3 {
+        width: 30px;
+        height: 3px;
+    }
+    .dropdown-content a {
+        font-size: 20px;
+        padding: 8px 8px 0 16px;
+    }
+    .white-bg{
+    .circle{
+        left: 47.3%;
+     }
+    }
+// footer
+.bg{
+    height: 58px;
+}
+.wrapper{
+    padding-top: 18px;
+}
+    // footer-end
+
+
+    // main2-about
     .text-about{
         padding: 100px;
     }
+    // main2-about-end
+
+    // main3-gallery
     .icon-wrapper{
         margin-bottom: 15px;
     }
     .tabcontent{
-        max-height: 360px;
+        max-height: 366px;
     }
+    // main3-gallery-end
+
+    // main4-blog
+    
+    .column{
+        max-height: 422px;
+    }
+    // main4-blog-end
+
+
+    // main5-cultural tours
     .tours{
         padding: 0 0 10px 45px;
     }
     .side-nav{
-        height: 469px;
+        height: 475px;
     }
     .side-nav h2{
         padding-bottom: 30px;
@@ -36,37 +63,127 @@
     .side-nav li{
         padding-bottom: 30px;
     }
+    
+    .side-filter{
+        height: 475px;
+    }
     .form-group2{
         padding-bottom: 30px;
-        .first{
-            padding-top: 30px;
         }
+    .first2{
+        padding-top: 30px;
+        }
+    .button-bg2{
+        margin-top: 24px;
     }
-    
+    .tours-content{
+        height: 475px;
+    }
+    // main5-cultural tours
+
+    // main6-mestia
     .order-tour{
-        max-height: 469px;
+        height: 475px;
     }
     .class{
         height: 80px;
     }
+    .class2{
+        padding-top: 0;
+        height: 60px;
+        padding-bottom: 0;
+    }
     .class3{
-        padding-bottom: 10px;
+        height: 60px;
+        padding-top:0;
+        padding-bottom: 4px;
+        
     }
     .class4{
-        margin-bottom: 34px;
+        padding-top:0;
+        margin-bottom: 10px;
     }
+    .tour-description{
+        height: 475px;
+    }
+    // main6-mestia-end
+
+
+    // main7-order
     .fillin{
         padding-top: 12px;
     }
     .order-class2{
         margin-bottom: 0;
     }
+    .order-class2 {
+        height: 80px;
+    }
+   
+    .order-class3{
+        padding-bottom: 0;
+        height: 60px;
+        }
     .order-class4{
         margin-bottom: 30px;
     }
+
+    
+    .order-page{
+        padding: 0px;
+    }
+    .fillin-order{
+        height: 475px;
+        .fillin{
+            padding-top: 20px;
+           
+         }
+         .fillin-first{
+            padding-top: 40px;
+        }
+    }
+    
+     .order-tour2{
+        height: 475px;
+     }
+     .order-class2{
+         margin-bottom: 0;
+    }
+    .order-class4{
+        margin-bottom: 30px;
+    }
+    // main7-order-end
+
+
     // slider
-    // .first{
-    //     padding-bottom: 25px;
-    // }
+    .total-wrapper{
+        margin-top: 0;
+    }
+    .wrapper-z a {
+        padding-bottom: 38px;
+        font-size: 24px;
+    }
+    h4{
+        font-size: 26px;
+    }
+    .label{
+        padding-top: 32px;
+        font-size: 24px;
+    }
+    .form-group{
+        padding-top: 20px;
+        margin-left: 90px;
+    }
+    .input{
+        padding: 10px;
+        width: 160px;
+    }
+    .button-bg{
+        margin-top: 22px;
+      }
+    .filter-button{
+        padding: 6px 30px;
+    }
+    // slider-end
 
 }
