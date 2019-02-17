@@ -3,11 +3,15 @@ height: 100%;
 
 }
 
+.background{
+  background-color: $color4;
 
+}
 .header-content{
 background-color:$color6;
-height:90px;
+height:80px;
 padding: 5px;
+
   
 }
 .second-header{
@@ -18,10 +22,10 @@ font-family: $font01;
 letter-spacing: 5px;
 text-transform: uppercase;
 color: $color5;
+padding: 10px;
 }
-.logo-button{
-height: 80px;
-width: 80px;
+.arrow{
+  font-size: 30px;
 }
 
 .dropdown{
@@ -77,9 +81,10 @@ font-family: $font01;
 .side-nav {
   float: left;
   width: 10%;
-  height: 782px;
-  background: $color9;
-  padding: 20px;
+  height: 792px;
+  padding: 80px 20px 20px 20px;
+  border-right: solid 1px;
+  border-color: $color10;
 
 
   
@@ -113,39 +118,40 @@ font-family: $font01;
 .side-filter{
   float: left;
   width: 10%;
-  height: 782px;
-  background: $color9;
+  height: 792px;
+  background: $color4;
   padding: 0 12px;
 }
 
 .filters2{
   display: inline-block;
   
-  }
+}
 
 
 .form-group2{
 display: inline-block;
 flex-direction: column;
-padding-bottom: 68px;
+padding-bottom: 56px;
 }
 .first2{
-padding-top: 130px;
+padding-top: 80px;
 }
 .input2{
-width: 100px;
-background-color: transparent;
+width: 102px;
+background-color: $color4;
 border: 1px solid $color1;
-border-radius: 10px;
-padding: 10px 4px;    
+border-radius: 5px;
+padding: 6px 2px;    
 color: $color7;
-font-size: 14px;
-
+font-size: 16px;
+font-family: $font01;
+outline: none;
 }
 
 
 .button-bg2{
-margin-top: 44px;
+margin-top: 38px;
 }
 .filter-button2{
 background-color: transparent;
@@ -174,18 +180,39 @@ transition-duration: 0.3s;
   // filters-end
 
 .tours-content{
-  float: left;
-  width: 80%;
-padding: 20px 0;
-background-color: #f1f1f1;
-align-items: center;
-height: 782px;
+float: left;
+width: 80%;
+padding: 34px;
+height: 790px;
 overflow: auto;
 }
 .main-content:after{
   content: "";
   display: table;
   clear: both;
+}
+
+.tours{
+  float: left;
+  position: relative;
+  margin: 0 0 20px 24px;
+}
+
+.tours img{
+  opacity: 0.8;
+}
+
+.tours a{
+  color: $color5;
+  font-size: 40px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+ 
 }
 
 // scroll-style
@@ -209,24 +236,6 @@ overflow: auto;
 
 // scroll-style-end
 
-.tours{
-  float: left;
-  position: relative;
-  color: $color5;
-  font-size: 40px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  padding: 15px 0 0 48px;
-  
-
-}
-.tours a{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
- 
-}
 
               //   footer
 .footer2{

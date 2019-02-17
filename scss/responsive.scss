@@ -1,4 +1,8 @@
 @media (max-width: 1366px){
+    .wrapper2{
+        width: 1000px;
+
+    }
     .logo{
         width: 100px;
         height: 100px;
@@ -14,79 +18,196 @@
     }
     .white-bg{
     .circle{
-        left: 47.3%;
+        width: 90px;
+        height: 90px;
+        top: 1%;
+        left: 47.6%;
      }
     }
+    .white-bg2{
+        .circle{
+            width: 90px;
+            height: 90px;
+            top: 1%;
+            left: 47.6%;
+         }
+        }
+
 // footer
 .bg{
     height: 58px;
 }
 .wrapper{
+    width: 1000px;
     padding-top: 18px;
+    .tel, .mail, .social {
+        font-size: 18px;
+    }
 }
+.bg2{
+    height: 58px;
+}
+
     // footer-end
 
 
     // main2-about
     .text-about{
-        padding: 100px;
+        padding: 100px 0 0 0;
+        max-width: 700px;
+        font-size: 24px;
     }
     // main2-about-end
 
     // main3-gallery
+    .general-galerry{
+        width: 1000px;
+    }
     .icon-wrapper{
         margin-bottom: 15px;
     }
     .tabcontent{
-        max-height: 366px;
+        max-height: 386px;
     }
+    .gallery img{
+        height: 300px;
+    }
+    .video{
+        max-height: 300px;
+    }
+    .video iframe{
+        height: 300px;
+    }
+ 
     // main3-gallery-end
+
 
     // main4-blog
     
     .column{
         max-height: 422px;
     }
+    .container2{
+        padding-top: 34px;
+      }
+    .card p{
+        font-size: 16px;
+    }
+    .blog-wrapper{
+        max-width: 800px;
+    }
     // main4-blog-end
 
 
     // main5-cultural tours
+
+    .second-header, .main-content{
+        width: 1000px;
+    }
+    .tours-content{
+        height: 484px;
+        padding: 30px ;
+        
+    }
     .tours{
-        padding: 0 0 10px 45px;
+        padding: 0 0 10px 20px;
+        margin: 0;
+    }
+    .tours img{
+        opacity: 0.9;
+        width: 220px;
+        height: 110px;
+      }
+    .tours a{
+        font-size: 34px;
+        letter-spacing: 3px;
     }
     .side-nav{
-        height: 475px;
-    }
+        height: 484px;
+        padding: 30px 20px 20px 20px;
+}
     .side-nav h2{
         padding-bottom: 30px;
+        font-size: 20px;
     }
     .side-nav li{
-        padding-bottom: 30px;
+        padding-bottom: 22px;
+        font-size: 16px;
+        line-height: 22px;
     }
     
     .side-filter{
-        height: 475px;
+        height: 484px;
+        padding: 0 6px;
     }
     .form-group2{
         padding-bottom: 30px;
         }
+    .input2{
+        width: 88px;
+        padding: 6px 2px;    
+        font-size: 13px;
+    }   
     .first2{
         padding-top: 30px;
         }
     .button-bg2{
         margin-top: 24px;
+        margin-left: 10px;
     }
-    .tours-content{
-        height: 475px;
+    .filter-button2{
+        border-radius: 5px;
+        padding: 4px 10px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        transition-duration: 0.4s;
+        
     }
+    
     // main5-cultural tours
 
     // main6-mestia
+    .tour-img{
+        height: 380px;
+    }
+    .tablinks{
+        padding: 10px 80px;
+    }
+    .tour-tabcontent{
+        padding: 4px 12px;
+    }
+    .tour-tabcontent iframe{
+        padding: 6px 0;
+    }
+    .tour-tabcontent h3{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .tour-tabcontent p{
+        font-size: 14px;
+        line-height: 24px;
+        
+    }
+    .tour-tabs button{
+        font-size: 20px;
+    }
+    // ---
     .order-tour{
-        height: 475px;
+        height: 484px;
+        h1{
+            font-size: 20px;
+            padding: 18px;
+        }
     }
     .class{
         height: 80px;
+        .adult, .children{
+            padding: 12px;
+            label{
+                font-size: 16px;
+                padding-bottom: 10px;
+            }
+        }
     }
     .class2{
         padding-top: 0;
@@ -99,27 +220,83 @@
         padding-bottom: 4px;
         
     }
+    .class2, .class3{
+        label{
+            font-size: 16px;
+        }
+    }
     .class4{
         padding-top:0;
         margin-bottom: 10px;
+        h5{
+            font-size: 16px;
+        }
+    }
+    .input3{
+        width: 70px;
+        border-radius: 5px;
+        padding: 4px 2px;    
+        font-size: 13px;
+    }
+    .order-button{
+        .order{
+            border-radius: 5px;
+            padding: 4px 10px;
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
     }
     .tour-description{
-        height: 475px;
+        height: 484px;
     }
     // main6-mestia-end
 
 
     // main7-order
-    .fillin{
-        padding-top: 12px;
+   
+    .fillin-order{
+        height: 484px;
+        padding: 20px;
+        .fillin{
+            padding-top: 20px;
+         }
+         .fillin-first{
+            padding-top: 10px;
+        }
+    }
+    .order-input{
+        width: 400px;
+        padding: 8px 8px;    
+        font-size: 18px;
+    }
+    .order-tour2{
+        padding: 20px;
+        height: 475px;
+    }
+    .order-class{
+        height: 80px;
+     .adult1, .children1{
+        padding: 0 14px 0 14px;
+        input{
+        width: 140px;
+        padding: 8px 8px;    
+        font-size: 18px;
+        }
+     }
+    }
+    .options{
+        width: 140px;
+        padding: 8px 8px;    
+        font-size: 18px;
+        
+    }
+    .order-class, .order-class2, .order-class3, .order-class4{
+        width: 360px;
     }
     .order-class2{
         margin-bottom: 0;
-    }
-    .order-class2 {
         height: 80px;
     }
-   
     .order-class3{
         padding-bottom: 0;
         height: 60px;
@@ -127,37 +304,30 @@
     .order-class4{
         margin-bottom: 30px;
     }
-
-    
     .order-page{
         padding: 0px;
     }
-    .fillin-order{
-        height: 475px;
-        .fillin{
-            padding-top: 20px;
-           
-         }
-         .fillin-first{
-            padding-top: 40px;
+    .order-button2{
+        padding: 0 10px;
+        .order2{
+            padding: 4px 24px;
+            font-size: 26px;
+            letter-spacing: 2px;
+            }
         }
-    }
-    
-     .order-tour2{
-        height: 475px;
-     }
-     .order-class2{
-         margin-bottom: 0;
-    }
-    .order-class4{
-        margin-bottom: 30px;
-    }
     // main7-order-end
 
 
     // slider
     .total-wrapper{
         margin-top: 0;
+        width:1000px;
+    }
+    .top-bar{
+        width:1000px;
+    }
+    .wrapper-z{
+        margin-right: 240px;
     }
     .wrapper-z a {
         padding-bottom: 38px;

@@ -145,7 +145,7 @@ body, html{
             
 .text-about{
     font-family: $font01;
-    font-size: 31px;
+    font-size: 30px;
     color: $color7;
     text-align: center;
     text-indent: 20px;
@@ -342,14 +342,15 @@ margin-left: 140px;
 padding-top: 0;
 }
 .input{
-width: 200px;
-background-color: transparent;
-border: 1px solid $color1;
-border-radius: 10px;
-padding: 15px;    
-color: #fff;
-font-size: 14px;
-
+  width: 200px;
+  background-color: transparent;
+  border: 1px solid $color1;
+  border-radius: 10px;
+  padding: 12px;    
+  color: $color2;
+  font-size: 18px;
+  font-family: $font01;
+  outline: none;
 }
 
 .labels{
@@ -379,7 +380,7 @@ vertical-align: middle;
 }
 
 .button-bg{
-margin-top: 25px;
+margin-top: 50px;
 }
 .filter-button{
 background-color: transparent;

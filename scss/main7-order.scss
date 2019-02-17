@@ -5,13 +5,13 @@ height: 100%;
 }
 
 .background{
-    background-color: $color9;
+    background-color: $color4;
 }
 
 // header
 .header-content{
 background-color:$color6;
-height:90px;
+height:80px;
 padding: 5px;
     
 }
@@ -24,10 +24,9 @@ letter-spacing: 5px;
 text-transform: capitalize;
 color: $color5;
 }
-.logo-button{
-height: 80px;
-width: 80px;
-}
+.arrow{
+    font-size: 30px;
+  }
 
 .dropdown{
 float: left;
@@ -79,7 +78,7 @@ display: block;
 .main-content{
 @extend %main-container;
 font-family: $font01;
-border: 1px solid $color4;
+border: 1px solid $color10;
 border-top: none;
 }
 
@@ -90,7 +89,7 @@ border-top: none;
     padding: 26px;
     
 }
-// right-column
+// left-column
 .fillin-order{
     float: left;
     width: 60%;
@@ -126,9 +125,9 @@ border-top: none;
 
 
 
-// right-column-end
+// left-column-end
 
-// left-column
+// right-column
 .order-tour2{
     float: left;
     width: 40%;
@@ -181,7 +180,7 @@ label{
 
 .options{
     width: 200px;
-    background-color: $color9;
+    background-color: $color4;
     border: 1px solid $color1;
     border-radius: 5px;
     padding: 10px 10px;    

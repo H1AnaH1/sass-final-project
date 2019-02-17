@@ -69,9 +69,6 @@
     
     <div id="photos" class="tabcontent">
         <div class="gallery">
-            <img src="img/ananuri.jpg" alt="ananuri" width="600" height="400">            
-        </div>
-        <div class="gallery">
             <img src="img/chaux.jpg" alt="chaukhi" width="600" height="400">       
         </div>
         <div class="gallery">
@@ -103,10 +100,16 @@
                 <img src="img/kazbegi.JPG" alt="kazbegi" width="600" height="400">
         </div>
         <div class="gallery">
+            <img src="img/ananuri.jpg" alt="ananuri" width="600" height="400">            
+        </div>
+        <div class="gallery">
                 <img src="img/kutaisi.JPG" alt="kutaisi" width="600" height="400">
         </div>
         <div class="gallery">
                 <img src="img/mtskheta.jpg" alt="mtskheta" width="600" height="400">
+        </div>
+        <div class="gallery">
+            <img src="img/sighnaghi.jpg" alt="sighnaghi" width="600" height="400">
         </div>
         <div class="gallery">
                 <img src="img/promete.JPG" alt="promete" width="600" height="400">
@@ -114,9 +117,7 @@
         <div class="gallery">
                 <img src="img/promete1.JPG" alt="promete" width="600" height="400">
         </div>
-        <div class="gallery">
-                <img src="img/sighnaghi.jpg" alt="sighnaghi" width="600" height="400">
-        </div>
+        
         <div class="gallery">
                 <img src="img/sighnaghi1.jpg" alt="sighnaghi" width="600" height="400">
         </div>
@@ -204,23 +205,29 @@
                             <div class="filters">
                                 <form action="#" class="form">
                                     <div class="form-group first">                               
-                                        <input type="text" class="input " >
+                                        <input type="number" name="quantity" min="1" max="100" class="input " >
                                     </div>
                                     <div class="form-group">                               
                                         <input type="text" class="input" >
                                     </div>
                                     <div class="form-group">                               
-                                        <input type="text" class="input">
+                                        <input type="number" name="quantity" min="1" max="100" class="input">
                                     </div>
                                     <div class="form-group">                              
                                         <input type="text" class="input" >
                                     </div>
                                     <div class="form-group">                              
-                                        <input type="text" class="input" >
+                                      <form action="/action_page.php">
+                                        <select name="packages" class="input">
+                                          <option value="regular" selected>Regular</option>
+                                          <option value="vip">VIP</option>
+                                          <option value="econom" >Econom</option>
+                                        </select>
+                                    </form>
                                     </div>
                                     
                                 </form>
-                            </div>      
+                            </div>   
                             <div class="button-bg">
                                 <button class="filter-button"> FILTER  </button>                    	
                                 </div>
@@ -242,7 +249,7 @@
                        <div class="mail">  <a href="mailto:info@wrt.ge">info@wrt.ge</a> </div>
                        <ul class="social-ul">
                           <li class="social-li">
-                           <a class="g+" href="https://plus.google.com">
+                           <a class="g+" href="https://plus.google.com" target="_blank">
                             <i class="fab fa-google-plus-g social"></i>
                            </a>
                           </li>
@@ -252,7 +259,7 @@
                             </a>
                           </li>
                           <li class="social-li">
-                            <a class="yt" href="https://www.youtube.com">
+                            <a class="yt" href="https://www.youtube.com" target="_blank">
                              <i class="fab fa-youtube social"></i>
                             </a>
                           </li>

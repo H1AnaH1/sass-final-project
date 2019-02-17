@@ -5,13 +5,13 @@ height: 100%;
 }
 
 .background{
-    background-color: $color9;
+    background-color: $color4;
 }
 
 // header
 .header-content{
 background-color:$color6;
-height:90px;
+height:80px;
 padding: 5px;
     
 }
@@ -24,10 +24,9 @@ letter-spacing: 5px;
 text-transform: uppercase;
 color: $color5;
 }
-.logo-button{
-height: 80px;
-width: 80px;
-}
+.arrow{
+    font-size: 30px;
+  }
 
 .dropdown{
 float: left;
@@ -79,7 +78,7 @@ display: block;
 .main-content{
 @extend %main-container;
 font-family: $font01;
-border: 1px solid $color4;
+border: 1px solid $color10;
 border-top: none;
 }
 
@@ -90,20 +89,21 @@ border-top: none;
 	height: 2px;
 	display: inline-block;
 	background: $color1;
-	vertical-align: top;
+    vertical-align: top;
+    
 }
 .tour-tabs{
     @extend %display-flex;
     position: sticky;
     top: 0;
-    background-color: $color8;
+    background-color: $color10;
 
 }
 .tour-description{
     float: left;
     width: 80%;
     height: 100%;
-    max-height:780px;
+    max-height:790px;
     overflow: auto;
 }
 .tour-img{
@@ -130,7 +130,7 @@ border-top: none;
     font-size: 24px;
     font-family: $font01;
     text-transform: uppercase;
-    color: $color4;
+    color: $color8;
 }
     
 .tour-tabs button.active {
@@ -142,7 +142,7 @@ border-top: none;
 }
 .tour-tabcontent {
 display: none;
-padding: 6px 12px;
+padding: 8px 16px;
 border-top: none;
 overflow: auto;
 }
@@ -153,23 +153,26 @@ overflow: auto;
     padding: 10px 0;
 }
 .tour-tabcontent h3{
-    font-size: 24px;
+    font-size: 20px;
+    font-family: $font3;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin: 10px 0;
-    color: $color7;
+    padding: 10px 0;
+    color: $color8;
 }
 .tour-tabcontent p{
-    font-size: 20px;
+    font-family: $font3;
+    font-size: 18px;
     color: $color8;
+    line-height: 26px;
     
 }
 
-// left-column
+// right-column
 .order-tour{
     float: left;
     width: 20%;
-    height: 782px;
+    height: 792px;
     
     
     h1{
@@ -225,15 +228,10 @@ padding-bottom: 30px;
             color: $color7;
             padding-bottom: 10px;
         }    
-    
-
 }
-    
-
-
-.input2{
+.input3{
     width: 100px;
-    background-color: $color9;
+    background-color: $color4;
     border: 1px solid $color1;
     border-radius: 5px;
     padding: 6px 4px;    
@@ -243,8 +241,6 @@ padding-bottom: 30px;
     outline: none;
 
 }
-  
-
 .order-button{
     padding: 14px;
     text-align: center;
@@ -261,7 +257,9 @@ padding-bottom: 30px;
         outline: none;
         letter-spacing: 2px;
         border: 1px solid $color1;
+        text-transform: uppercase;
         transition-duration: 0.4s;
+
         
         }
         .order:hover{
@@ -272,10 +270,7 @@ padding-bottom: 30px;
         }
 }
 
-
-
-
-    // filters-end
+    // right-column-end
 
 .main-content:after{
     content: "";

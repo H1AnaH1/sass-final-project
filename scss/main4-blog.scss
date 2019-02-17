@@ -3,18 +3,17 @@ body, html{
 
 }
 
-
-.background-img{
-  background-image: url(../img/bgimage1.jpg);
+.background-img2{
+  background-image: url(../img/bgimage2.jpg);
 	background-repeat: no-repeat;
   background-position: center top;
   margin: 0;
   height: 100%;
   background-size: cover;
-}
 
-.white-bg{
-  background-color: rgba(191, 191, 191, 0.5);
+}
+.white-bg2{
+  background-color: rgba(191, 191, 191, 0.4);
   width: 100%;
   height: 100%;
   position: relative;
@@ -27,7 +26,7 @@ body, html{
     border-style: solid;
     border-color: $color1;
     border-width: 2px;
-    position: absolute sticky;
+    position: absolute;
     top: 3%;
     left: 48%;
     
@@ -333,13 +332,15 @@ margin-left: 140px;
 padding-top: 0;
 }
 .input{
-width: 200px;
-background-color: transparent;
-border: 1px solid $color1;
-border-radius: 10px;
-padding: 15px;    
-color: #fff;
-font-size: 14px;
+  width: 200px;
+  background-color: transparent;
+  border: 1px solid $color1;
+  border-radius: 10px;
+  padding: 12px;    
+  color: $color2;
+  font-size: 18px;
+  font-family: $font01;
+  outline: none;
 
 }
 
@@ -370,7 +371,7 @@ vertical-align: middle;
 }
 
 .button-bg{
-margin-top: 25px;
+margin-top: 50px;
 }
 .filter-button{
 background-color: transparent;
@@ -398,86 +399,91 @@ transition-duration: 0.3s;
 
 // filters-end
 
-// img/video tabs
+//  blog
 
-.general-galerry{
-  @extend %main-container;
-  margin-top: 50px;    
+.blog-wrapper{
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+  margin-top: 70px;    
 
 }
 
-.icon-wrapper{
-  text-align: center;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-.tablink {
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding-top: 14px;
-  padding-right: 95px;
-  padding-left: 0;
-  padding-bottom: 0;
-    
-}
 
-.tablink:last-child{
-  padding-right: 0;
-}
-
-
-
-.tabcontent {
-  display: none;
+.column{  
   width: 100%;
   height: 100%;
-  max-height:620px;
+  max-height:710px;
   overflow: auto;
     
 }
-
-
-
-.icon{
-    width: 30px;
-        
-}
-
-.gallery {
-  margin-left: 20px;
-  margin-bottom: 10px;
-  border: 1px solid $color4;
+.card{
+  background-color: $color4;
+  margin-bottom: 20px;
   display: inline-block;
-  width: 600px;
-  height: 400px;
-}
-
-.gallery:hover {
-  border: 1px solid #777;
-}
-
-.gallery img {
-  width: 100%;
+  position: relative;
   
 }
-
-
-.video{
-	width: 570px;
-	height: 320px;  
+.card h2{
+  font-family: $font3;
+  font-size: 26px;
+  position: absolute;
+  color: $color5;
+  top: 30%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+.card h5{
+  font-family: $font3;
+  font-size: 22px;
+  position: absolute;
+  color: $color5;
+  top: 50%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+}
+.card p{
+  font-family: $font3;
+  font-size: 20px;
   display: inline-block;
-  margin: 10px;
-    
+  text-indent: 30px;
+  color: $color8;
+  padding: 8px;
+
+}
+.blog-img1{
+  width: 100%;
+  height: 200px;
+  background-image: url(../img/sighnaghi-cover.jpg);
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+
+}
+.blog-img2{
+  width: 100%;
+  height: 200px;
+  background-image: url(../img/kutaisi-cover.jpg);
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+
+}
+.blog-img3{
+  width: 100%;
+  height: 200px;
+  background-image: url(../img/telavi.jpg);
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  
+
 }
 
 
-.video iframe{
-	width: 100%;
-	height: 100%;
-}
-//  img/video tabs - end
+//  blog - end
 
 
 

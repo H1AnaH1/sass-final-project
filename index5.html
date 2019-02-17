@@ -13,13 +13,11 @@
 </head>
 
 <body>
-
+    <div class="background">
 <header>            
     <section class="header-content">        
             <div class="second-header" >        
-                <a href="index.html"> <img class="logo-button" src="img/logo.svg" alt="logo">
-                    
-                </a>
+                <a href="index.html"> <p class="arrow">&#x219E;</p>   </a>            
                 
                 <h2 class="title-1">Cultural Tours</h2>
 
@@ -52,7 +50,6 @@
     </nav>
     
     <section class="tours-content">
-                
         
             <div class="tours">
                 <img src="img/tbilisi1.jpg" alt="tbilisi" width="280" height="150"> 
@@ -100,7 +97,7 @@
                 </div>
                 <div class="tours">
                     <img src="img/ananuri.jpg" alt="ananuri" width="280" height="150">   
-                    <a href="#">Tbilisi</a>           
+                    <a href="#">Ananuri</a>           
                 </div>
                 <div class="tours">
                         <img src="img/juta.jpg" alt="juta" width="280" height="150">   
@@ -113,26 +110,33 @@
                 <div class="filters2">
                     <form >
                         <div class="form-group2 first2">                               
-                            <input type="text" class="input2 " placeholder="Days" >
+                            <input type="number" class="input2 " placeholder="Days" >
                         </div>
                         <div class="form-group2">                               
                             <input type="text" class="input2" placeholder="Location" >
                         </div>
                         <div class="form-group2">                               
-                            <input type="text" class="input2" placeholder="Person" >
+                            <input type="number" class="input2" placeholder="Person" >
                         </div>
                         <div class="form-group2">                              
-                            <input type="text" class="input2"  placeholder="Price">
+                            <input type="number" class="input2"  placeholder="Price">
                         </div>
-                        <div class="form-group2">                              
-                            <input type="text" class="input2" placeholder="Accomodation" >
+                        <div class="form-group2">  
+                                <form action="/action_page.php">
+                                    <select name="packages" class="input2">
+                                      <option value="regular" selected>Accomodation</option>
+                                      <option value="regular" >Regular</option>
+                                      <option value="vip">VIP</option>
+                                      <option value="econom" >Econom</option>
+                                    </select>
+                                </form>                            
                         </div>
                         
                     </form>
                 </div>      
                 <div class="button-bg2">
                     <button class="filter-button2"> FILTER  </button>                    	
-                    </div>
+                </div>
                                             
     </div>
   
@@ -148,7 +152,7 @@
                 <div class="mail">  <a href="mailto:info@wrt.ge">info@wrt.ge</a> </div>
                 <ul class="social-ul">
                 <li class="social-li">
-                    <a class="g+" href="https://plus.google.com">
+                    <a class="g+" href="https://plus.google.com" target="_blank">
                     <i class="fab fa-google-plus-g social"></i>
                     </a>
                 </li>
@@ -158,7 +162,7 @@
                     </a>
                 </li>
                 <li class="social-li">
-                    <a class="yt" href="https://www.youtube.com">
+                    <a class="yt" href="https://www.youtube.com" target="_blank">
                     <i class="fab fa-youtube social"></i>
                     </a>
                 </li>
@@ -169,7 +173,7 @@
 </footer>
 
 
-
+</div>
 
 
     <script defer src="https://use.fontawesome.com/releases/v5.6.1/js/all.js" integrity="sha384-R5JkiUweZpJjELPWqttAYmYM1P3SNEJRM6ecTQF05pFFtxmCO+Y1CiUhvuDzgSVZ" crossorigin="anonymous"></script>
