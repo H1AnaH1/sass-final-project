@@ -115,10 +115,19 @@ border-top: none;
     padding: 10px 10px;    
     color: $color7;
     font-size: 20px;
-    text-transform: capitalize;
     font-family: $font01;
     }
-
+.order-input-active{
+    text-transform: capitalize;
+    width: 420px;
+    background-color: transparent;
+    border: 1px solid $color1;
+    border-radius: 5px;
+    padding: 10px 10px;    
+    color: $color7;
+    font-size: 20px;
+    font-family: $font01;
+}
 ::placeholder{
     color: $color7;
 }

@@ -1,7 +1,10 @@
-@media (max-width: 1366px){
+@media (max-width: 1366px), (max-height: 768px){
     .wrapper2{
         width: 1000px;
 
+    }
+    .header{
+        width: 1000px;
     }
     .logo{
         width: 100px;
@@ -264,7 +267,7 @@
             padding-top: 10px;
         }
     }
-    .order-input{
+    .order-input, .order-input-active{
         width: 400px;
         padding: 8px 8px;    
         font-size: 18px;
@@ -327,14 +330,14 @@
         width:1000px;
     }
     .wrapper-z{
-        margin-right: 240px;
+        margin-right: 176px;
     }
     .wrapper-z a {
         padding-bottom: 38px;
         font-size: 24px;
     }
     h4{
-        font-size: 26px;
+        font-size: 24px;
     }
     .label{
         padding-top: 32px;
@@ -345,15 +348,216 @@
         margin-left: 90px;
     }
     .input{
-        padding: 10px;
+        padding: 6px;
         width: 160px;
     }
     .button-bg{
-        margin-top: 22px;
+        margin-top: 24px;
       }
     .filter-button{
-        padding: 6px 30px;
+        padding: 4px 22px;
     }
     // slider-end
 
 }
+
+@media screen and (max-height: 900px){
+
+.white-bg{
+    .circle{
+        width: 90px;
+        height: 90px;
+        top: 1.4%;
+        left: 47.7%;
+        }
+    }
+    .white-bg2{
+        .circle{
+            width: 90px;
+            height: 90px;
+            top: 1.4%;
+            left: 47.7%;
+            }
+        }
+// main3-gallery
+
+.tabcontent{
+    max-height: 614px;
+}
+.gallery img{
+    height: 380px;
+}
+.video{
+    max-height: 300px;
+}
+.video iframe{
+    height: 300px;
+}
+
+// main3-gallery-end
+
+
+// main4-blog
+
+.column{
+    max-height: 684px;
+}
+.container2{
+    padding-top: 40px;
+}
+// main4-blog-end
+
+// slider
+.wrapper-z{
+    margin-right: 318px;
+}
+// slider-end
+
+// cultural-tours
+.tours-content{
+    height: 753px;
+    padding: 30px ;
+    
+}
+.side-nav, .side-filter{
+    height: 778px;
+    
+}
+.tour-description{
+    height:750px;
+}
+
+.order-tour{
+    height: 756px;
+}
+// cultural-tours-end
+}
+
+
+
+@media screen and (max-height: 800px){
+
+    .white-bg{
+        .circle{
+            width: 90px;
+            height: 90px;
+            top: 1.4%;
+            left: 47.7%;
+            }
+        }
+        .white-bg2{
+            .circle{
+                width: 90px;
+                height: 90px;
+                top: 1.4%;
+                left: 47.7%;
+                }
+            }
+    // main3-gallery
+    
+    .tabcontent{
+        max-height: 556px;
+    }
+    .gallery img{
+        height: 300px;
+    }
+    .video{
+        max-height: 300px;
+    }
+    .video iframe{
+        height: 300px;
+    }
+    
+    // main3-gallery-end
+
+    // main2-about
+    .text-about{
+        padding: 190px 0 0 0;
+        max-width: 700px;
+        font-size: 24px;
+    }
+    // main2-about-end
+    
+    // main4-blog
+    
+    .column{
+        max-height: 592px;
+    }
+    .container2{
+        padding-top: 40px;
+    }
+    // main4-blog-end
+    
+    // slider
+    .wrapper-z{
+        margin-right: 232px;
+    }
+    // slider-end
+    
+    // cultural-tours
+    .tours-content{
+        height: 660px;
+        padding: 30px ;
+        
+    }
+    .side-nav, .side-filter{
+        height: 660px;
+        
+    }
+    // cultural-tours-end
+
+    // main6-mestia
+    .tour-description{
+        height:660px;
+    }
+    
+    .order-tour{
+        height: 670px;
+    }
+    // main6-mestia-end
+
+    // main7-order
+   
+    .fillin-order{
+        height: 700px;
+        padding: 20px;
+        .fillin{
+            padding-top: 30px;
+         }
+         .fillin-first{
+            padding-top: 60px;
+        }
+    }
+    .order-input, .order-input-active{
+        width: 400px;
+        padding: 8px 8px;    
+        font-size: 18px;
+    }
+    .order-tour2{
+        padding: 20px;
+        height: 700px;
+    }
+    .order-class{
+        height: 80px;
+     .adult1, .children1{
+        padding: 50px 14px 0 14px;
+        input{
+        width: 140px;
+        padding: 6px 6px;    
+        font-size: 18px;
+        }
+     }
+    }
+    .options{
+        width: 140px;
+        padding: 8px 8px;    
+        font-size: 18px;
+        
+    }
+    .order-class, .order-class2, .order-class3, .order-class4{
+        width: 340px;
+        margin-bottom: 20px;
+    }
+ 
+    // main7-order-end
+    }
