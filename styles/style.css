@@ -2447,3 +2447,71 @@ body, html {
   .order-class, .order-class2, .order-class3, .order-class4 {
     width: 340px;
     margin-bottom: 20px; } }
+
+@media screen and (max-width: 1280px), (max-height: 950px) {
+  .white-bg .circle {
+    width: 90px;
+    height: 90px;
+    top: 1.4%;
+    left: 47.7%; }
+  .white-bg2 .circle {
+    width: 90px;
+    height: 90px;
+    top: 1.4%;
+    left: 47.7%; }
+  .tabcontent {
+    max-height: 710px; }
+  .gallery img {
+    height: 300px; }
+  .video {
+    max-height: 300px; }
+  .video iframe {
+    height: 300px; }
+  .text-about {
+    padding: 190px 0 0 0;
+    max-width: 700px;
+    font-size: 24px; }
+  .column {
+    max-height: 740px; }
+  .container2 {
+    padding-top: 40px; }
+  .wrapper-z {
+    margin-right: 232px; }
+  .tours-content {
+    height: 820px;
+    padding: 30px; }
+  .side-nav, .side-filter {
+    height: 820px; }
+  .tour-description {
+    height: 830px; }
+  .order-tour {
+    height: 820px; }
+  .fillin-order {
+    height: 820px;
+    padding: 20px; }
+    .fillin-order .fillin {
+      padding-top: 30px; }
+    .fillin-order .fillin-first {
+      padding-top: 60px; }
+  .order-input, .order-input-active {
+    width: 400px;
+    padding: 8px 8px;
+    font-size: 18px; }
+  .order-tour2 {
+    padding: 20px;
+    height: 820px; }
+  .order-class {
+    height: 80px; }
+    .order-class .adult1, .order-class .children1 {
+      padding: 50px 14px 0 14px; }
+      .order-class .adult1 input, .order-class .children1 input {
+        width: 140px;
+        padding: 6px 6px;
+        font-size: 18px; }
+  .options {
+    width: 140px;
+    padding: 8px 8px;
+    font-size: 18px; }
+  .order-class, .order-class2, .order-class3, .order-class4 {
+    width: 340px;
+    margin-bottom: 20px; } }
