@@ -243,11 +243,6 @@ color: #f1f1f1;
 
 
 
-@media screen and (max-height: 450px) {
-.sidenav {padding-top: 15px;}
-.sidenav a {font-size: 18px;}
-}
-
 .top-bar{
 @extend %main-container;
 h2{
@@ -288,7 +283,7 @@ width: 100%;
 }
 
 .wrapper-z{
-margin-right: 245px;
+margin-right: 253px;
 height: 80%;
 }
 .wrapper-z a {
