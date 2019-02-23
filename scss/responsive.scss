@@ -485,6 +485,12 @@
     .bg, .bg2{
         height: 58px;
     }
+    .footer2{
+        width: 375px;
+        .line{
+            width: 375px;
+        }
+    }
     .wrapper{
         width: 370px;
         padding-top: 18px;
@@ -792,15 +798,15 @@ color: $color4;
         display: none;
     }
     .tour-description{
-        height:696px;
-        width: 373px;
+        height:692px;
+        width: 374px;
     }
     .tour-img{
         width: 100%;
         height: 220px;
     }
     .tour-tabs button {
-        font-size: 18px;
+        font-size: 15px;
       
     }
     .tablinks{
@@ -816,60 +822,140 @@ color: $color4;
         padding: 4px 0;
     }
     .tour-tabcontent h3{
-        font-size: 18px;
+        font-size: 15px;
         letter-spacing: 1px;
         padding: 6px 0;
     }
     .tour-tabcontent p{
-        font-size: 16px;
+        font-size: 15px;
         line-height: 24px;
     }
-   
+    .order-button2{
+        padding: 14px;
+        .order{
+            border-radius: 5px;
+            padding: 6px 8px;
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+    }
     // main6-mestia-end
     
     // main7-order
-    
-    .fillin-order{
-        height: 820px;
-        padding: 20px;
-        .fillin{
-            padding-top: 30px;
-            }
-            .fillin-first{
-            padding-top: 60px;
-        }
+    .title-2{
+        font-size: 22px;
+        text-align: center;
     }
-    .order-input, .order-input-active{
-        width: 400px;
-        padding: 8px 8px;    
-        font-size: 18px;
-    }
-    .order-tour2{
-        padding: 20px;
-        height: 820px;
-    }
-    .order-class{
-        height: 80px;
-        .adult1, .children1{
-        padding: 50px 14px 0 14px;
-        input{
-        width: 140px;
-        padding: 6px 6px;    
-        font-size: 18px;
-        }
-        }
-    }
-    .options{
-        width: 140px;
-        padding: 8px 8px;    
-        font-size: 18px;
+    .order-page{
+        max-width: 375px;
+        width: 100%;
+        margin: auto;
+        padding: 8px;
+        display: block;
+        overflow: auto;
+        height: 710px;
         
     }
-    .order-class, .order-class2, .order-class3, .order-class4{
-        width: 340px;
-        margin-bottom: 20px;
+    // left-column
+    .fillin-order{
+      width: 375px;
+      height: 280px;
+        .fillin{
+           padding-top: 10px;
+            
+        }
+        .fillin-first{
+            padding-top: 20px;
+        }
+    }
+    .message{
+        height: 60px;
+    }
+    .order-input{
+        width: 220px;
+        border-radius: 5px;
+        padding: 4px 4px;    
+        font-size: 18px;
+        }
+    .order-input-active{
+        width: 220px;
+        border-radius: 5px;
+        padding: 4px 4px;    
+        font-size: 18px;
+    }
+    // left-column-end
+    
+    // right-column
+    .order-tour2{
+        width: 375px;
+        padding: 10px;
+      }
+    
+    .filters3{
+    width: 375px;
+    
+    }
+    .order-class{
+    height: 100px;
+    width: 154px;
+    .adult1, .children1{
+        padding: 16px 10px 0 10px;
+        label{
+            display: block;
+            font-size: 16px;
+            padding-bottom: 8px;
+        }
+      }
+    }
+    .adult1, .children1{
+        input{
+        width: 100px;
+        border-radius: 5px;
+        padding: 6px 6px;    
+        font-size: 16px;
+        }
+    }
+    .order-class2, .order-class3{
+    display: inline-block;
+    height: 100px;
+    width: 154px;
+    padding: 0 6px;
+    margin-bottom: 10px;
+    label{
+        font-size: 18px;
+     }
     }
     
-    // main7-order-end
+    .options{
+        width: 144px;
+        padding: 8px 8px;    
+        font-size: 16px;
+        margin-top: 8px;
     }
+    .order-class3{
+    padding-bottom: 20px;
+    }
+    .order-class4{
+    height: 90px;
+    width: 154px;
+    margin-bottom: 50px;
+    padding: 0 6px;
+        
+        h5{
+            font-size: 18px;
+            padding-bottom: 8px;
+        }    
+    }
+    
+    .order-button2{
+    padding: 0 14px;
+    .order2{
+        padding: 4px 30px;
+        font-size: 26px;
+        letter-spacing: 2px;
+        background-color: $color1;
+        color: $color4;
+        }
+    }
+}
 

@@ -1794,6 +1794,25 @@ body, html {
     border: 1px solid #d96f25;
     transition-duration: 0.3s; }
 
+.order-button2 {
+  padding: 14px;
+  text-align: center; }
+  .order-button2 .order {
+    background-color: #d96f25;
+    color: #dfdfdf;
+    border-radius: 10px;
+    padding: 6px 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: CarlMarx;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 2px;
+    border: 1px solid #d96f25;
+    text-transform: uppercase;
+    transition-duration: 0.4s; }
+
 .main-content:after {
   content: "";
   display: table;
@@ -2386,6 +2405,10 @@ body, html {
     left: 41.6%; }
   .bg, .bg2 {
     height: 58px; }
+  .footer2 {
+    width: 375px; }
+    .footer2 .line {
+      width: 375px; }
   .wrapper {
     width: 370px;
     padding-top: 18px;
@@ -2577,13 +2600,13 @@ body, html {
   .order-tour {
     display: none; }
   .tour-description {
-    height: 696px;
-    width: 373px; }
+    height: 692px;
+    width: 374px; }
   .tour-img {
     width: 100%;
     height: 220px; }
   .tour-tabs button {
-    font-size: 18px; }
+    font-size: 15px; }
   .tablinks {
     padding: 4px 30px; }
   .tour-tabcontent {
@@ -2592,38 +2615,96 @@ body, html {
     width: 100%;
     padding: 4px 0; }
   .tour-tabcontent h3 {
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: 1px;
     padding: 6px 0; }
   .tour-tabcontent p {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px; }
+  .order-button2 {
+    padding: 14px; }
+    .order-button2 .order {
+      border-radius: 5px;
+      padding: 6px 8px;
+      font-size: 20px;
+      letter-spacing: 1px; }
+  .title-2 {
+    font-size: 22px;
+    text-align: center; }
+  .order-page {
+    max-width: 375px;
+    width: 100%;
+    margin: auto;
+    padding: 8px;
+    display: block;
+    overflow: auto;
+    height: 710px; }
   .fillin-order {
-    height: 820px;
-    padding: 20px; }
+    width: 375px;
+    height: 280px; }
     .fillin-order .fillin {
-      padding-top: 30px; }
+      padding-top: 10px; }
     .fillin-order .fillin-first {
-      padding-top: 60px; }
-  .order-input, .order-input-active {
-    width: 400px;
-    padding: 8px 8px;
+      padding-top: 20px; }
+  .message {
+    height: 60px; }
+  .order-input {
+    width: 220px;
+    border-radius: 5px;
+    padding: 4px 4px;
+    font-size: 18px; }
+  .order-input-active {
+    width: 220px;
+    border-radius: 5px;
+    padding: 4px 4px;
     font-size: 18px; }
   .order-tour2 {
-    padding: 20px;
-    height: 820px; }
+    width: 375px;
+    padding: 10px; }
+  .filters3 {
+    width: 375px; }
   .order-class {
-    height: 80px; }
+    height: 100px;
+    width: 154px; }
     .order-class .adult1, .order-class .children1 {
-      padding: 50px 14px 0 14px; }
-      .order-class .adult1 input, .order-class .children1 input {
-        width: 140px;
-        padding: 6px 6px;
-        font-size: 18px; }
+      padding: 16px 10px 0 10px; }
+      .order-class .adult1 label, .order-class .children1 label {
+        display: block;
+        font-size: 16px;
+        padding-bottom: 8px; }
+  .adult1 input, .children1 input {
+    width: 100px;
+    border-radius: 5px;
+    padding: 6px 6px;
+    font-size: 16px; }
+  .order-class2, .order-class3 {
+    display: inline-block;
+    height: 100px;
+    width: 154px;
+    padding: 0 6px;
+    margin-bottom: 10px; }
+    .order-class2 label, .order-class3 label {
+      font-size: 18px; }
   .options {
-    width: 140px;
+    width: 144px;
     padding: 8px 8px;
-    font-size: 18px; }
-  .order-class, .order-class2, .order-class3, .order-class4 {
-    width: 340px;
-    margin-bottom: 20px; } }
+    font-size: 16px;
+    margin-top: 8px; }
+  .order-class3 {
+    padding-bottom: 20px; }
+  .order-class4 {
+    height: 90px;
+    width: 154px;
+    margin-bottom: 50px;
+    padding: 0 6px; }
+    .order-class4 h5 {
+      font-size: 18px;
+      padding-bottom: 8px; }
+  .order-button2 {
+    padding: 0 14px; }
+    .order-button2 .order2 {
+      padding: 4px 30px;
+      font-size: 26px;
+      letter-spacing: 2px;
+      background-color: #d96f25;
+      color: #dfdfdf; } }

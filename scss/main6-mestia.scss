@@ -269,7 +269,26 @@ padding-bottom: 30px;
         transition-duration: 0.3s;
         }
 }
-
+.order-button2{
+    padding: 14px;
+    text-align: center;
+    .order{
+        background-color: $color1;
+        color: $color4;
+        border-radius: 10px;
+        padding: 6px 8px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 24px;
+        font-family: $font01;
+        cursor: pointer;
+        outline: none;
+        letter-spacing: 2px;
+        border: 1px solid $color1;
+        text-transform: uppercase;
+        transition-duration: 0.4s;
+    }
+}
     // right-column-end
 
 .main-content:after{
